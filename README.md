@@ -2,4 +2,4 @@
 
 TicTacToe game in swiftUI
 
-![](/TicTocToe/demo.gif)
+![](/TicTocToe/demo.png)

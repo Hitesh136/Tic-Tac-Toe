@@ -18,23 +18,35 @@ struct ContentView: View {
 
     @ObservedObject var viewModel = GameViewModel()
     var body: some View {
-        VStack(spacing: 3) {
-            ForEach(0...2, id: \.self) { yIndex in
-                HStack(spacing: 3) {
-                    ForEach(0...2, id: \.self) { xIndex in
-                        Text(self.viewModel.getTextFor(xIndex: xIndex, yIndex: yIndex))
-                        .foregroundColor(Color.red)
-                        .font(Font.system(size: 50))
-                        .frame(width: self.boxLength, height: self.boxLength)
-                        .background(Color.white)
-                        .onTapGesture {
-                                self.viewModel.makeMove(xIndex: xIndex, yIndex: yIndex)
+        ZStack {
+            Color.black
+            VStack {
+                
+                Text("Tic Tac Toe")
+                    .font(Font.system(size: 30))
+                    .foregroundColor(.white)
+                    .padding(.bottom, 40)
+                VStack(spacing: 3) {
+                    ForEach(0...2, id: \.self) { yIndex in
+                        HStack(spacing: 3) {
+                            ForEach(0...2, id: \.self) { xIndex in
+                                Text(self.viewModel.getTextFor(xIndex: xIndex, yIndex: yIndex))
+                                    .foregroundColor(Color.black)
+                                    .font(Font.system(size: 60))
+                                    .frame(width: self.boxLength, height: self.boxLength)
+                                    .background(Color.white)
+                                    .onTapGesture {
+                                        self.viewModel.makeMove(xIndex: xIndex, yIndex: yIndex)
+                                }
+                            }
                         }
                     }
                 }
+                .background(Color.black)
+                .cornerRadius(10)
             }
         }
-        .background(Color.black)
+        .edgesIgnoringSafeArea(.all)
         .alert(isPresented: $viewModel.showActionSheet) {
             let title = self.viewModel.winner == .empty ? "Draw" : "\(self.viewModel.winner.description) won"
             
