@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF130C2A24016DCA008DDE6E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FF130C2924016DCA008DDE6E /* README.md */; };
+		FF130C2C24016EF5008DDE6E /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = FF130C2B24016EF4008DDE6E /* demo.gif */; };
 		FF87A87023FFB60A00CFD8B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87A86F23FFB60A00CFD8B5 /* AppDelegate.swift */; };
 		FF87A87223FFB60A00CFD8B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87A87123FFB60A00CFD8B5 /* SceneDelegate.swift */; };
 		FF87A87423FFB60A00CFD8B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF87A87323FFB60A00CFD8B5 /* ContentView.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF130C2924016DCA008DDE6E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FF130C2B24016EF4008DDE6E /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		FF87A86C23FFB60A00CFD8B5 /* TicTocToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTocToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF87A86F23FFB60A00CFD8B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF87A87123FFB60A00CFD8B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +46,7 @@
 		FF87A86323FFB60A00CFD8B5 = {
 			isa = PBXGroup;
 			children = (
+				FF130C2924016DCA008DDE6E /* README.md */,
 				FF87A86E23FFB60A00CFD8B5 /* TicTocToe */,
 				FF87A86D23FFB60A00CFD8B5 /* Products */,
 			);
@@ -58,6 +63,7 @@
 		FF87A86E23FFB60A00CFD8B5 /* TicTocToe */ = {
 			isa = PBXGroup;
 			children = (
+				FF130C2B24016EF4008DDE6E /* demo.gif */,
 				FF87A86F23FFB60A00CFD8B5 /* AppDelegate.swift */,
 				FF87A87123FFB60A00CFD8B5 /* SceneDelegate.swift */,
 				FF87A88323FFB81F00CFD8B5 /* GameHandler.swift */,
@@ -138,7 +144,9 @@
 			files = (
 				FF87A87C23FFB60D00CFD8B5 /* LaunchScreen.storyboard in Resources */,
 				FF87A87923FFB60D00CFD8B5 /* Preview Assets.xcassets in Resources */,
+				FF130C2A24016DCA008DDE6E /* README.md in Resources */,
 				FF87A87623FFB60D00CFD8B5 /* Assets.xcassets in Resources */,
+				FF130C2C24016EF5008DDE6E /* demo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
