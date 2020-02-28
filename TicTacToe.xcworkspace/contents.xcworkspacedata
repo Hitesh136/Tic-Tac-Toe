@@ -2,13 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:TicTacToe.xcodeproj">
+      location = "group:TicTacToe/TicTacToe.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:TicTacToeShared-iOS/TicTacToeShared-iOS.xcodeproj">
+      location = "group:TicTacToeServer/Sources/TicTacToeServer/TicTacToeShared/TicTacToeShared.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:TicTacToeShared/TicTacToeShared.xcodeproj">
+      location = "group:TicTacToeServer/TicTacToeServer.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

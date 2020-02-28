@@ -1,0 +1,88 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "COpenSSL",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-COpenSSL.git",
+        "state": {
+          "branch": null,
+          "revision": "4669765f9c301a91cf76ad0ddeece27367017acc",
+          "version": "4.0.1"
+        }
+      },
+      {
+        "package": "PerfectCrypto",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Crypto.git",
+        "state": {
+          "branch": null,
+          "revision": "9a6fd2a63bf4f7f0b9a5eb90afa50eff66b7542d",
+          "version": "3.2.0"
+        }
+      },
+      {
+        "package": "PerfectHTTP",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-HTTP.git",
+        "state": {
+          "branch": null,
+          "revision": "122affd0bb5090c61bdc1e50e7f32ab6457d228e",
+          "version": "3.3.0"
+        }
+      },
+      {
+        "package": "PerfectNet",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Net.git",
+        "state": {
+          "branch": null,
+          "revision": "d00b2b9f4cccb4c398e1bcf18f767d6b8add6af7",
+          "version": "3.3.0"
+        }
+      },
+      {
+        "package": "PerfectThread",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Thread.git",
+        "state": {
+          "branch": null,
+          "revision": "a50b9a33f08fce638f33ae3121613fe499cc23ec",
+          "version": "3.0.7"
+        }
+      },
+      {
+        "package": "PerfectWebSockets",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-WebSockets.git",
+        "state": {
+          "branch": null,
+          "revision": "9e6ad7068cf91b751f0b5329aea507e54fbda62f",
+          "version": "3.1.1"
+        }
+      },
+      {
+        "package": "PerfectLib",
+        "repositoryURL": "https://github.com/PerfectlySoft/PerfectLib.git",
+        "state": {
+          "branch": null,
+          "revision": "5a08c2a596df23a3ae30b6ac9cb509a38384166c",
+          "version": "3.1.4"
+        }
+      },
+      {
+        "package": "Starscream",
+        "repositoryURL": "https://github.com/daltoniam/Starscream.git",
+        "state": {
+          "branch": null,
+          "revision": "850f6204411cde04d16c129b70a2b9d1beba3a95",
+          "version": "4.0.0"
+        }
+      },
+      {
+        "package": "swift-nio-zlib-support",
+        "repositoryURL": "https://github.com/apple/swift-nio-zlib-support.git",
+        "state": {
+          "branch": null,
+          "revision": "37760e9a52030bb9011972c5213c3350fa9d41fd",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
